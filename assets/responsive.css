@@ -1,0 +1,115 @@
+@media (max-width:9999px) {
+  .formulare-task, .edit-formulare-appear {
+    font-size: xx-large;
+  }
+
+  .all-to-do-list-content {
+    width: 60%;
+  }
+  
+  .formulare-task {
+    flex-direction: row;
+    gap: 0;
+    gap: 2%;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+  }
+
+  .content-input {
+    width: 30%;
+    word-wrap: break-word;
+  }
+
+  .tasks-content {
+    height: 80%;
+    overflow-y: auto;
+    font-size: xx-large;
+  }
+  .tasks {
+    min-height: 80px;
+  }
+
+  .edit-formulare-appear {
+    width: 50%;
+    height: 30%;
+    background-color: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4), 0px 7px 13px -3px rgba(0, 0, 0, 0.3), inset 0px -3px 0px rgba(0, 0, 0, 0.2);
+    gap: 20%;
+  }
+
+  .submit-style {
+    padding: 10%;
+  }
+}
+
+@media (max-width:2400px) {
+  * {
+    font-size: x-large;
+  }
+}
+
+@media (max-width:1950px) {
+  * {
+    font-size: large;
+  }
+
+  .all-to-do-list-content {
+    width: 70%;
+  }
+}
+
+@media (max-width:1300px) {
+  * {
+    font-size: small;
+  }
+} 
+
+@media (max-width:1000px) {
+
+   .all-to-do-list-content {
+    width: 90%;
+    height: 100vh;
+    padding: 0;
+    justify-content: space-evenly;
+   }
+
+   .formulare-task {
+    flex-direction: column;
+    align-items: center;
+  }
+  .content-input {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .tasks-content {
+    height: 60%;
+    border: 0;
+  }
+
+   .edit-formulare-appear {
+    width: 80%;  
+  }
+
+  .submit-style {
+    padding: 5%;
+  }
+} 
+
+@media (max-width: 300px) {
+  .all-to-do-list-content {
+    width: 100%;
+  }
+
+  .tasks {
+    height: 150px;
+  }
+  .edit-formulare-appear {
+    width: 100%;  
+  }
+
+  .update-form {
+    width: 100%;
+  }
+} 

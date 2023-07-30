@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="./index.js" defer></script>
+  <link rel="stylesheet" href="./assets/style.css">
+  <link rel="stylesheet" href="./assets/responsive.css">
+</head>
+<body>
+  <div class="all-page">
+    <main class="all-to-do-list-content">
+      <form class="formulare-task">
+        <div class="content-input">
+          <label for="input-task">Insert your task:</label>
+          <input type="text" name="input-task" id="input-task" placeholder="study" required>
+        </div>
+        <div class="content-input">
+          <label for="input-hour">Insert task hour:</label>
+          <input type="text" name="input-hour" id="input-hour" placeholder="1-24" required>
+        </div>
+        <div>
+          <input type="submit" value="Send" class="submit-style">
+        </div>
+      </form>
+      <div class="tasks-content"> 
+      </div>
+    </main>
+
+    <div class="edit-formulare">
+      <header class="top-edit-formulare-content">
+        <div class="close-button">X</div>
+      </header>
+      <form id="update-form">
+        <label for="input-edit-task">Insert New Task:</label>
+        <input type="text" placeholder="New Task" name="input-edit-task" id="input-edit-task">
+        <label for="input-edit-time">Insert New Time:</label> 
+        <input type="text" placeholder="New Time" name="input-edit-time" id="input-edit-time">
+        <input type="submit" value="Send">
+      </form>
+    </div>
+  </div>
+</body>
+</html>
